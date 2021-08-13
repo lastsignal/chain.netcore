@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>lastsignal.chain.netcore</id>
+    <version>3.0.0</version>
+    <authors>Dan_B_Daneshgar</authors>
+    <owners>Dan_B_Daneshgar</owners>
+    <licenseUrl>https://github.com/lastsignal/chain/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/lastsignal/chain</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Chain is a pattern that I found useful in my places in my code. It is NOT the chain-of-responsibility and it is not the work-flow or pipeline. It is a combination of all.</description>
+    <releaseNotes>Version Three (.Net Core)</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>csharp patterns chain dotnet core</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="Chain\bin\Release\netcoreapp2.2\Chain.dll" target="lib\core2.2\Chain.dll" />
+  </files>
+</package>
