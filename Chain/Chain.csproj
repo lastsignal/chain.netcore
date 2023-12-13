@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <PackageId>Chain.NetCore</PackageId>
-    <Version>6.0.3</Version>
+    <Version>6.0.4</Version>
     <Authors>Dan B. Daneshgar</Authors>
     <Company>Last Signal Corp</Company>
     <AssemblyName>Chain</AssemblyName>
@@ -21,7 +21,7 @@
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/lastsignal/chain.netcore</RepositoryUrl>
-    <LicenseUrl>https://github.com/lastsignal/chain/blob/master/LICENSE</LicenseUrl>
+    <LicenseUrl>https://github.com/lastsignal/chain.netcore/blob/main/LICENSE.md</LicenseUrl>
 
   </PropertyGroup>
 
