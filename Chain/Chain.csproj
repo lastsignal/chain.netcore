@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <PackageId>Chain.NetCore</PackageId>
-    <Version>6.0.2</Version>
+    <Version>6.0.3</Version>
     <Authors>Dan B. Daneshgar</Authors>
     <Company>Last Signal Corp</Company>
     <AssemblyName>Chain</AssemblyName>
@@ -17,7 +17,9 @@
     <PackageTags>Chain;Chain of Responsibility;</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/lastsignal/chain.netcore</RepositoryUrl>
     <LicenseUrl>https://github.com/lastsignal/chain/blob/master/LICENSE</LicenseUrl>
 
@@ -29,7 +31,12 @@
 
   <ItemGroup>
     <None Update="icon.png" Pack="true" PackagePath="\" />
-    <None Update="LICENSE.txt" Pack="true" PackagePath="\" />
+    <None Include="..\LICENSE.md" dLink="LICENSE.md" Pack="true" PackagePath="\">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\README.md" dLink="README.md" Pack="true" PackagePath="\">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
