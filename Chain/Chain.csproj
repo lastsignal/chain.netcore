@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <PackageId>Chain.NetCore</PackageId>
-    <Version>6.0.4</Version>
+    <Version>6.0.5</Version>
     <Authors>Dan B. Daneshgar</Authors>
     <Company>Last Signal Corp</Company>
     <AssemblyName>Chain</AssemblyName>
