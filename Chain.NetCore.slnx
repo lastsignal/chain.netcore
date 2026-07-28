@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Chain/Chain.csproj" />
+  <Project Path="UnitTests/UnitTests.csproj" />
+</Solution>
