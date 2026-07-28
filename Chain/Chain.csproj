@@ -1,27 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <PackageId>Chain.NetCore</PackageId>
-    <Version>6.0.5</Version>
-    <Authors>Dan B. Daneshgar</Authors>
-    <Company>Last Signal Corp</Company>
+    <TargetFramework>net10.0</TargetFramework>
+    <Version>10.0.0</Version>
     <AssemblyName>Chain</AssemblyName>
     <RootNamespace>Chain</RootNamespace>
 
     <!-- Package meta data -->
     <PackageId>Chain.NetCore</PackageId>
-    <Title>Chain .Net Core</Title>
+    <Title>Chain .Net</Title>
     <Authors>Dan B. Daneshgar</Authors>
+    <Company>Last Signal Corp</Company>
     <Description>A compact version of Chain of Responsibility for .NET Core projects</Description>
     <PackageTags>Chain;Chain of Responsibility;</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageIcon>icon.png</PackageIcon>
     <IncludeContentInPack>true</IncludeContentInPack>
-    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/lastsignal/chain.netcore</RepositoryUrl>
-    <LicenseUrl>https://github.com/lastsignal/chain.netcore/blob/main/LICENSE.md</LicenseUrl>
 
   </PropertyGroup>
 
@@ -31,9 +28,6 @@
 
   <ItemGroup>
     <None Update="icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\LICENSE.md" dLink="LICENSE.md" Pack="true" PackagePath="\">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="..\README.md" dLink="README.md" Pack="true" PackagePath="\">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
